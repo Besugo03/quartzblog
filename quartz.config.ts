@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "it-IT",
+    locale: "en-US",
     baseUrl: "blog.alessandropizzuco.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
