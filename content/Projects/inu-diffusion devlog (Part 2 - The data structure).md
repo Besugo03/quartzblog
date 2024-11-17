@@ -60,7 +60,7 @@ based on their generation order.
 
 As you can see, only by looking at the image name, we can know which job started it, and have a full trace of how it was generated. We see that the starting job was Ted, that it generated a job from its first image (Fred), which generated two other images.
 
-==this means that renaming the images is completely out of question!==
+⚠️==this means that renaming the images is completely out of question!==⚠️
 
 But with such a huge drawback, why go for the renaming of the images, instead of something like adding an additional file with this information or putting the information inside the image's metadata?
 
@@ -82,3 +82,5 @@ as you can imagine, the images will be displayed the following way (if sorted al
 Which we can easily visually separate and thus select, move and whatever else we want to do with them.
 
 This naming thing could possibly become some sort of togglable feature, but as of now, I never had the necessity to rename files, so I'm gonna keep it like this.
+
+[[inu-diffusion devlog (Part 3 - The disaster)|Next devlog : The disaster]]
